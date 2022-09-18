@@ -90,6 +90,6 @@ LineageViewer(spark).save_graph(path)
 
 ## Demo Notebook
 
-[Sample using Lineage Keeper](https://colab.research.google.com/drive/19ZnFMPIxxwGWpQbj9x92CRnzUfzaTyaR?usp=sharing)
+[Sample using Lineage Keeper](https://colab.research.google.com/drive/1K4NlpjJRkTFfKAj_Mpo8WvtjDOZzBKhI?usp=sharing)
 
 <img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/graph_sample.png" alt="Graph_Sample" height="300"/>
