@@ -2,7 +2,7 @@
 
 A lightweight lineage tool based on Spark and Delta Lake
 
-<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/architecture.drawio.png" alt="Graph_Sample" height="150"/>
+<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/architecture.drawio.png" alt="Architecture" height="150"/>
 
 ## Table of contents
 
