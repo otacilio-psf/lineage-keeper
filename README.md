@@ -4,6 +4,18 @@ A lightweight lineage tool based on Spark and Delta Lake
 
 <img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/architecture.drawio.png" alt="Graph_Sample" height="150"/>
 
+## Table of contents
+
+  * [Instalation](#instalation)
+  * [Basic use](#basic-use)
+  * [Functionalities](#functionalities)
+    + [Listener function](#listener-function)
+    + [load listener](#load-listener)
+    + [Lineage graph viewer](#lineage-graph-viewer)
+    + [Lineage graph writer](#lineage-graph-writer)
+  * [Limitations](#limitations)
+  * [Demo Notebook](#demo-notebook)
+
 ## Instalation
 
 ```
@@ -75,7 +87,7 @@ LineageViewer(spark).save_graph(path)
     - `spark.sql("SELECT * FROM db.table")`
 - To use `load_listener` to  is necessary to use `df.write.saveAsTable("db.table")` otherwise need to call `LineageListener(spark).listener(df, "db.table")`
 
-## Google Colab Sample
+## Demo Notebook
 
 [Sample using Lineage Keeper](https://colab.research.google.com/drive/19ZnFMPIxxwGWpQbj9x92CRnzUfzaTyaR?usp=sharing)
 
