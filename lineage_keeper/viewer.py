@@ -15,11 +15,11 @@ class LineageViewer():
         window_spec = Window.partitionBy("target_table","source_tables").orderBy(col("load_datetime").desc())
         df = df.withColumn("rn", row_number().over(window_spec)).filter("rn == 1").drop("rn","load_datetime")
 
-        edges = [(r.target_table, r.source_tables) for r in df.collect()]
+        edges = [(r.source_tables, r.target_table) for r in df.collect()]
 
         g = nx.DiGraph()
-        for n1, n2 in edges:
-            g.add_edge(n2, n1)
+        for s_table, t_table in edges:
+            g.add_edge(s_table, t_table)
 
         if not nx.is_directed_acyclic_graph(g):
             raise Exception("Not directed acyclic graph")
