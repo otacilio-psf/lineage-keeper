@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='lineage_keeper',  
-     version='0.1',
+     version='0.2',
      description="A lightweight lineage tool based on Spark and Delta Lake",
      url="https://github.com/otacilio-psf/lineage-keeper",
      author="Otacilio Filho",
