@@ -2,7 +2,7 @@
 
 A lightweight lineage tool based on Spark and Delta Lake
 
-<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/architecture.drawio.png" alt="Graph_Sample" width="450"/>
+<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/architecture.drawio.png" alt="Graph_Sample" height="150"/>
 
 ## Instalation
 
@@ -79,4 +79,4 @@ LineageViewer(spark).save_graph(path)
 
 [Sample using Lineage Keeper](https://colab.research.google.com/drive/19ZnFMPIxxwGWpQbj9x92CRnzUfzaTyaR?usp=sharing)
 
-<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/graph_sample.png" alt="Graph_Sample" width="450"/>
+<img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/graph_sample.png" alt="Graph_Sample" height="300"/>
