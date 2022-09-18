@@ -49,6 +49,7 @@ If wanted its possible to use a different service table.
 Manually input lineage information on the service table
 
 LineageListener : spark sesison
+
 listener : source DataFrame, target table
 
 ```
