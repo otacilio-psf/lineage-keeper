@@ -1,4 +1,6 @@
-# Lineage Keeper
+
+
+# <img src="https://raw.githubusercontent.com/otacilio-psf/lineage-keeper/main/.attachment/lineage-keeper.png" alt="Logo" height="50"/> Lineage Keeper
 
 A lightweight lineage tool based on Spark and Delta Lake
 
